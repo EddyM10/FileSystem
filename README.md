@@ -1,7 +1,7 @@
 # FileSystem
 
 This filesystem only used a single root directory.
-The format of the filesystem is detailed below:
+### The format of the filesystem is detailed below:
     • The first 256 bytes of the file is the FAT table.
     • Files are written in cluster sizes of 1024 bytes.
     • The FAT uses 1 byte per cluster on the system.
